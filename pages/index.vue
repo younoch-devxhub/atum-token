@@ -1,11 +1,11 @@
 <template>
   <div class="w-full main-container">
-    <section class="w-full relative flex justify-center align-middle py-10">
-      <div class="background-1 absolute top-0 left-0 h-full"></div>
-      <main class="container grid grid-cols-12 gap-5 mx-40 py-6 items-center">
-        <aside class="font-medium text-white col-span-6">
+    <section class="relative flex justify-center w-full py-10 align-middle">
+      <div class="absolute top-0 left-0 h-full background-1"></div>
+      <main class="container grid items-center grid-cols-12 gap-5 py-6 mx-40">
+        <aside class="col-span-6 font-medium text-white">
           <h1 class="text-5xl">Atum <span class="underline">Token</span></h1>
-          <h2 class="text-4xl mt-2">
+          <h2 class="mt-2 text-4xl">
             A Trusted & Secure Cryptocurrency Platform
           </h2>
           <p class="mt-5 font-normal">
@@ -16,7 +16,7 @@
             MP3,MP4, Data collection & monetization using Distributed Ledger
             Technology.
           </p>
-          <div class="text-sm font-normal mt-6">
+          <div class="mt-6 text-sm font-normal">
             <button class="btn-1">White paper</button>
             <button class="btn-2">Buy Token</button>
           </div>
@@ -28,10 +28,10 @@
     </section>
 
     <section
-      class="w-full relative flex justify-center align-middle py-10 part-2"
+      class="relative flex justify-center w-full py-10 align-middle part-2"
     >
-      <div class="background-2 absolute top-0 left-0"></div>
-      <main class="container grid grid-cols-12 gap-5 mx-40 py-6 items-center">
+      <div class="absolute top-0 left-0 background-2"></div>
+      <main class="container grid items-center grid-cols-12 gap-5 py-6 mx-40">
         <figure class="col-span-6">
           <img
             class="img-para"
@@ -39,12 +39,12 @@
             alt=""
           />
         </figure>
-        <aside class="font-medium col-span-6">
+        <aside class="col-span-6 font-medium">
           <h1 class="text-3xl font-semibold">
             Atum <span class="underline text-grad"> Overview</span>
           </h1>
 
-          <p class="mt-5 font-normal text-sm">
+          <p class="mt-5 text-sm font-normal">
             ATUM is an application that allows users to buy, sell and trade
             premium licensed, digital assets and other related virtual goods.
             <br />
